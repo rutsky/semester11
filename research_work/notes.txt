@@ -1,0 +1,21 @@
+Научные социальные сети.
+Обзор: http://habrahabr.ru/blogs/study/123932/
+http://en.wikipedia.org/wiki/Academia.edu
+http://en.wikipedia.org/wiki/Scispace.net
+http://en.wikipedia.org/wiki/Epernicus
+http://en.wikipedia.org/wiki/ResearchGate
+http://en.wikipedia.org/wiki/MyScience
+
+Хранение и обработка статей в Firefox/OpenOffice:
+https://www.zotero.org/
+Ещё:
+http://en.wikipedia.org/wiki/LibX
+
+http://en.wikipedia.org/wiki/Comparison_of_reference_management_software
+
+Проблема расшаривания закрытых статей, добытых из торрентов и файлообменников.
+
+Поиск научных статей:
+http://scholar.google.com
+http://citeseerx.ist.psu.edu
+http://www.jstor.org
