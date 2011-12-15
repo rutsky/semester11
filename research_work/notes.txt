@@ -19,3 +19,10 @@ http://en.wikipedia.org/wiki/Comparison_of_reference_management_software
 http://scholar.google.com
 http://citeseerx.ist.psu.edu
 http://www.jstor.org
+
+
+ * Envi. Erdas. Global Mapper. PHOTOMOD GeoMosaic
+ * Заценить LEDA и CORE
+ * Геометрическое хеширование, bucketing, Орург
+ * Менелаус Каравеллас CGAL Произвольные отрезки 2004
+
