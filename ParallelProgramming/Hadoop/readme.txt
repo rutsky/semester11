@@ -1,4 +1,4 @@
-На моей host-машине с Ubuntu 11.04:
+На моей host-машине с Ubuntu 11.04, VirtualBox 4.1.8 r75467 с Extension Pack:
 1. Поставил в VirtualBox Ubuntu Server 11.10 (user:password30, 
    ubuntu:password31).
 2. Настроил в Ubuntu Server 11.10 PXE Boot Server (DHCP, TFTP, NFS).
