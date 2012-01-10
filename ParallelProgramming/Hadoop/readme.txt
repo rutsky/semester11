@@ -1,5 +1,6 @@
 На моей host-машине с Ubuntu 11.04:
-1. Поставил в VirtualBox Ubuntu Server 11.10 (user:password30).
+1. Поставил в VirtualBox Ubuntu Server 11.10 (user:password30, 
+   ubuntu:password31).
 2. Настроил в Ubuntu Server 11.10 PXE Boot Server (DHCP, TFTP, NFS).
    http://www.serenux.com/2010/05/howto-setup-your-own-pxe-boot-server-using-ubuntu-server/
    http://www.serenux.com/2010/05/howto-get-an-ubuntu-live-cd-to-boot-off-a-pxe-server/
