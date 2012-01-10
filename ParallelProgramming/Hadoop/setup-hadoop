@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# On Live distributive for slaves.
+# /etc/init.d/setup-hadoop
+# Linked from
+# /etc/rc2.d/S80setup-hadoop
+
+
+# To disable login on tty1 change in /etc/default/console-setup:
+# # Setup these consoles.  Most people do not need to change this.
+# ACTIVE_CONSOLES="/dev/tty[2-6]"
+
+mount -t nfs 192.168.30.2:/srv/cluster_common /cluster -o intr
+su ubuntu -c "cp /cluster/init.sh /home/ubuntu/"
+openvt -- su ubuntu -c "/home/ubuntu/init.sh 2>&1 | tee /home/ubuntu/init.log"
