@@ -236,7 +236,7 @@ def article_html(article):
     return dedent("""\
       <tr>
         <td>
-          <a href="#" onclick="$.prettyPhoto.open([{images_list}]); return false;"><img 
+          <a href="#" onclick="$.prettyPhoto.open([{images_list}], [{titles_list}], [{descriptions_list}]); return false;"><img 
                class="thumb"
                src="images/presentations/thumbs/{name}.jpg" 
                   width="200" height="150" 
@@ -249,7 +249,9 @@ def article_html(article):
         </td>
       </tr>
     """.format(name=name, title=title, author=author, 
-               annotation=annotation, images_list=images_list))
+               annotation=annotation, images_list=images_list,
+               titles_list=', '.join(["''"] * num_pages), 
+               descriptions_list=', '.join(["''"] * num_pages)))
 
 def main():
     sorted_articles = sorted(articles, key=lambda x: x[2])
